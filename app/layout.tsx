@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Cyber.ix - Transform Your Digital Vision',
     description: 'We specialize in creating innovative digital solutions that help businesses thrive in the modern world.',
-    images: ['https://images.unsplash.com/photo-1522071820081-009f0129c71c'],
+    images: ['/companylogo.png'],
   },
   robots: {
     index: true,
@@ -45,6 +45,10 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  icons: {
+    icon: '/companylogo.png', 
+    apple: '/companylogo.png',
   },
 };
 

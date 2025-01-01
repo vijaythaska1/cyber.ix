@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Globe2, Laptop2, Smartphone, Database, Server, Braces, Gift } from "lucide-react";
+import { Code2, Globe2, Laptop2, Smartphone } from "lucide-react";
 
 const services = [
   {
@@ -46,7 +46,7 @@ const stats = [
   { number: "99%", label: "Client Satisfaction" }
 ];
 
-export function ServicesPage() {
+const ServicesPage: React.FC = () => {
   return (
     <div className="bg-gradient-to-b from-blue-950 to-black relative">
       {/* Grid Pattern Background */}

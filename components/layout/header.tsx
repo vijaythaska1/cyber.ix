@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+
 import Image from 'next/image';
 import  logo   from "@/app/assets/conpanylogo.png";
 
@@ -70,11 +70,11 @@ export function Header() {
                 <span className="absolute inset-x-0 bottom-0 h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
               </Link>
             ))}
-            <Button
+            {/* <Button
               className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white hover:from-blue-700 hover:to-cyan-700 transition-all duration-200"
             >
               Get Started
-            </Button>
+            </Button> */}
           </nav>
 
           {/* Enhanced Mobile Menu Button */}
@@ -121,11 +121,11 @@ export function Header() {
                       {item.label}
                     </Link>
                   ))}
-                  <Button
+                  {/* <Button
                     className="mt-4 w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white hover:from-blue-700 hover:to-cyan-700 transition-all duration-200"
                   >
                     Get Started
-                  </Button>
+                  </Button> */}
                 </div>
               </nav>
             </div>
