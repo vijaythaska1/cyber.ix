@@ -54,7 +54,7 @@ export default function Navigation() {
             >
               Service
             </NavLink>
-            {/* <NavLink
+            <NavLink
               to="/portfolio"
               className={({ isActive }) =>
                 `text-foreground/80 hover:text-foreground transition ${isActive ? 'text-primary font-bold' : ''
@@ -62,8 +62,8 @@ export default function Navigation() {
               }
             >
               Portfolio
-            </NavLink> */}
-            {/* <NavLink
+            </NavLink>
+            <NavLink
               to="/blog"
               className={({ isActive }) =>
                 `text-foreground/80 hover:text-foreground transition ${isActive ? 'text-primary font-bold' : ''
@@ -71,7 +71,7 @@ export default function Navigation() {
               }
             >
               Blog
-            </NavLink> */}
+            </NavLink>
             <NavLink
               to="/contact"
               className={({ isActive }) =>
