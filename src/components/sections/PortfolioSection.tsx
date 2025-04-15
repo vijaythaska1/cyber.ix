@@ -19,9 +19,9 @@ export default function PortfolioSection({ portfolioItems }: PortfolioSectionPro
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-64 object-cover transition-transform group-hover:scale-110"
+                className="w-full h-64 object-contain transition-transform bg-white p-2 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <div className="absolute inset-0 bg-black/60 opacity-100 transition-opacity flex items-center justify-center">
                 <div className="text-center">
                   <h3 className="text-white text-xl font-semibold mb-2">{item.title}</h3>
                   <p className="text-white/80">{item.category}</p>

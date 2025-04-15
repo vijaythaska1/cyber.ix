@@ -1,16 +1,5 @@
-import {
-  Shield,
-  Code2,
-  Network,
-  Laptop2,
-  Lock,
-  Cloud,
-  Database,
-  Users,
-  Zap,
-  LineChart,
-} from "lucide-react";
-
+import { Shield, Code2, Network, Laptop2 } from "lucide-react";
+import Asray from "../../assist/iconv-DyJRchrr.png";
 export const services = [
   {
     icon: Shield,
@@ -37,23 +26,28 @@ export const services = [
 ];
 
 export const portfolioItems = [
+  // {
+  //   title: "Enterprise Security",
+  //   image:
+  //     "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+  //   category: "Cybersecurity",
+  // },
+  // {
+  //   title: "Cloud Migration",
+  //   image:
+  //     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+  //   category: "Cloud Solutions",
+  // },
+  // {
+  //   title: "Digital Transformation",
+  //   image:
+  //     "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800",
+  //   category: "Consulting",
+  // },
   {
-    title: "Enterprise Security",
-    image:
-      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-    category: "Cybersecurity",
-  },
-  {
-    title: "Cloud Migration",
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
-    category: "Cloud Solutions",
-  },
-  {
-    title: "Digital Transformation",
-    image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800",
-    category: "Consulting",
+    title: "Asray App",
+    image: Asray,
+    category: "Web & App Development",
   },
 ];
 

@@ -11,21 +11,21 @@ export default function ContactSection() {
             <CardContent className="p-6 flex flex-col items-center text-center">
               <Mail className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-muted-foreground">contact@cyber-ix.com</p>
+              <p className="text-muted-foreground">adidevx.tech@gmail.com</p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 flex flex-col items-center text-center">
               <Phone className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-semibold mb-2">Phone</h3>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+91-(945)-643-4829</p>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 flex flex-col items-center text-center">
               <MapPin className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-semibold mb-2">Address</h3>
-              <p className="text-muted-foreground">123 Tech Street, Digital City</p>
+              <p className="text-muted-foreground">123 Tech Street, Mohali City</p>
             </CardContent>
           </Card>
         </div>

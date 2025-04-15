@@ -16,8 +16,7 @@ function Home() {
   const navigate = useNavigate()
   return (
     <div className="min-h-screen bg-background">
-      {/* <Navigation /> */}
-
+      
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
@@ -27,13 +26,13 @@ function Home() {
               <div className="inline-flex items-center rounded-full border px-4 py-1 text-sm mb-6">
                 <span className="text-primary font-medium">New</span>
                 <span className="mx-2">|</span>
-                <span className="text-muted-foreground">Advanced Threat Protection</span>
+                <span className="text-muted-foreground">Web, App & Security Solutions</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
                 Securing Your Digital Future
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Leading the way in cybersecurity and digital transformation solutions for businesses worldwide. Protect your assets with next-generation security.
+              We build powerful web and mobile apps while ensuring top-notch cybersecurity. From development to protection, we empower businesses to thrive in the digital world.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button  onClick={() => navigate("/contact")} size="lg" className="group">
@@ -94,10 +93,9 @@ function Home() {
 
       <ServicesSection services={services} />
       <WorkProcessSection processes={workProcesses} />
-      <TestimonialsSection testimonials={testimonials} />
+      {/* <TestimonialsSection testimonials={testimonials} /> */}
       <PortfolioSection portfolioItems={portfolioItems} />
       <ContactSection />
-      {/* <Footer /> */}
     </div>
   );
 }
